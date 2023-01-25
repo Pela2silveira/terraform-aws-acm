@@ -71,6 +71,7 @@ Will not allow to add new SANS due to bug that shoulb de fixed [here](https://gi
 | validate\_certificate | Whether or not certificate should be validated | `bool` | `true` | no |
 | validation\_method | Which method to use for validation. DNS or EMAIL are valid, NONE can be used for certificates that were imported into ACM and then into Terraform. | `string` | `"DNS"` | no |
 | zone\_id | The ID of the hosted zone to contain this record. | `string` | `""` | no |
+| key\_algorithm | Specifies the algorithm of the public and private key pair that your Amazon issued certificate uses to encrypt data. | `string` | `null` | no |
 
 ## Outputs
 

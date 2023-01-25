@@ -45,3 +45,9 @@ variable "allow_overwrite_records" {
   type        = bool
   default     = true
 }
+
+variable "key_algorithm" {
+  description = "Specifies the algorithm of the public and private key pair that your Amazon issued certificate uses to encrypt data."
+  type        = string
+  default     = null
+}
